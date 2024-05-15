@@ -19,25 +19,4 @@ The final deliverables will include:
 
 At the beginning of the project, the students will be given guidance as to how to best get up to speed with the sneaker market and will be given access to the data prior to the project start. The data is several thousands of records (or can be in millions) and is in a SQL database which students will either have access to or be given a CSV file.
 
- 
-
-Data Dictionary
-
-Feature	Type	Description
-SKU	string	SKU, sneaker's unique identifier (not unique to size however)
-CONDITION	string	Sneaker's condition as categorized by marketplace it was sold in (our primary focus is 'is_new' and 'Brand New' condition)
-SIZE	string	Listed size of sneaker
-GENDER	string	Gender category
-SOLD_AT	timestamp	Date and time sold
-SOLD_PRICE	float	Price sold
-SOURCE	string	Source of sale record
-SIZE_VALUE	float	Sneaker size, as a float (excluding string values)
-BRAND	string	Sneakr brand
-NAME	string	Sneaker name
-COLORWAY	string	Officially listed sneaker colorway
-COLOR	string	Sneaker's estimated primary color
-SILHOUETTE	string	Sneaker's silhouette
-RETAIL_PRICE	int	Original retail price
-RELEASE_DATE	timestamp	Date sneaker was released
-IS_COLLAB	boolean	Whether sneaker is a collaboration (TRUE if yes, FALSE if not or data unavailable)
-COLLABORATOR	string	Name of collaborator, if available
+![image](https://github.com/nehadataninja/Time-Series-Shoe-Prediction/assets/155708653/72322aa3-8d9f-4fd7-a4f0-9ce9aa2fd0de)
